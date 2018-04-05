@@ -1,7 +1,7 @@
 <img src="assets/cover.png" />
 
 [0xCert](https://0xcert.org) is an open source, permission-less protocol for certified non-fungible
-tokens on the blockchain. A full description of the protocol in available in our  [whitepaper](https://0xcert.org/whitepaper.pdf).
+tokens on the blockchain. It provides a framework with a set of on-chain and off-chain rules with an advanced integration layer for different dapps and relay applications. A full description of the protocol in available in our [whitepaper](https://0xcert.org/whitepaper.pdf).
 
 This repository is the main entry point to the 0xcert open-source community. It includes the specs, the core documentation files and links to all related 0xcert projects and libraries. 
 
