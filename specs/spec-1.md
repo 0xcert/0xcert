@@ -13,19 +13,19 @@ About 0xcert protocol goals and vision.
 
 ## Abstract
 
-A digital asset is a data object which holds informating about a real-world asset. 0xcert uses blockchain to store a cryptographic proof of a particular asset in form of a non-fungible token. The token is visible in cryptographic wallet and is owned by a user.
+A digital asset is a data object which holds information about a real-world asset. 0xcert uses blockchain to store a cryptographic proof of a particular asset in form of a non-fungible token. The token is visible in a cryptographic wallet and is owned by a user.
 
-The protocol provides conventions for defining data objects and rules for converting them to non-fungible tokens on the blockchain.
+The protocol provides conventions for defining these data objects and rules for converting them into non-fungible tokens on the blockchain.
 
-0xcert is an open source, permission-less protocol for certified non-fungible tokens on the blockchain. It's an opinionated framework with a set of on-chain and off-chain rules for managing digital assets on the blockchain. With 0xcert protocol, we can validate a proof of existence, authenticity, and ownership of a digital asset without third-party involvement. A user hold proofs of digital assets in his digital wallet. They can transfer them from wallet to wallet and can further manage the tokens he owns.
+0xcert is an open source, permission-less protocol for certified non-fungible tokens on the blockchain. It's an opinionated framework with a set of on-chain and off-chain rules for managing digital assets on the blockchain. With 0xcert protocol, we can validate a proof of existence, authenticity, and ownership of a digital asset without third-party involvement. A user holds proofs of digital assets in his digital wallet. He can transfer them from wallet to wallet and can further manage the tokens he owns.
 
 ## Motivation
 
 The blockchain is an amazing technology but it is complex in its nature. Writing smart contracts is not easy and could potentially represent a very dangerous task. This prevents many people to adopt the blockchain technology and to build their decentralized applications on top of it.
 
-Our mission is to equip application developers with a secure blockchain settlement, powerful tools, and community embraced conventions for managing non-fungible tokens. 
+Our mission is to equip application developers with a secure settlement, powerful tools, and community embraced conventions for managing digital assets as non-fungible tokens on the blockchain. 
 
-0xcert is a pluggable settlement with an advanced integration layer for different dapps and relay applications. This enables developers to focus on the application layer and quickly build decentralized applications for issuing university certificates, KYC applications, applications for loyalty programs, warranties, badges, credits or even a decentralized non-fungible exchange.
+0xcert is a pluggable blockchain-based settlement with an advanced integration layer for different dapps and relay applications. This enables developers to focus on the application layer and quickly build decentralized applications for issuing university certificates, KYC applications, applications for loyalty programs, warranties, badges, credits or even a decentralized non-fungible exchange.
 
 ## Reference
 
