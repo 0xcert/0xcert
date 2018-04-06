@@ -1,0 +1,43 @@
+---
+issue: 2
+title: Xcert token
+author: Kristijan Sedlak <kristijan@0xcert.org>
+category: spec
+status: Draft
+created: 2017-11-01
+---
+
+## Simple Summary
+
+An Xcert is a non-fungible token on the blockchain which carries a proof of a digital asset.
+
+## Abstract
+
+The 0xcert protocol puts a digital asset on the blockchain as a non-fungible token. This token is called an Xcert and exists on the blockchain as an item of a specifically designed smart contract.
+
+An Xcert represents a one-of-a-kind asset. It is owned by a user in his/her cryptographic wallet. An Xcert can be transferred from wallet to wallet and has all other standard properties of a non-fungible token.
+
+## Motivation
+
+Digital assets on the blockchain as non-fungible tokens represent a new paradigm which enables application developers to build advanced and secure applications for managing real-world digital assets. Users hold asset ownership rights in their cryptographic wallets. They are able to exchange tokens between wallets and have a control over the tokens they own.
+
+## Specification
+
+An Xcert is an item of a specifically designed smart contract which implements the non-fungible functionality. 
+
+The process of issuing new Xcerts is called "minting". The minting process creates a new unique Xcert for a particular digital asset and assigns it to a digital wallet. A new Xcert can be minted by the issuer, who owns the Xcert smart contract or by an entity authorized by the issuer. Anyone can become an issuer by deploying a new Xcert smart contract to the blockchain. An issuer should represent a trusted authority that provides a value for the interested public. The issuer uses Xcerts on the blockchain to provide proofs of ownership for its digitized assets.
+
+An Xcert is described with a unique identifier and carries a cryptographic proof of a digital asset. An Xcert thus does not include any actual asset data but only its imprint. This ensures data confidentiality because no information is disclosed to the general public and the actual content is always kept private to the involved parties only. The included proof can be verified only when the token owner discloses asset information to a third-party. An Xcert also holds an URI pointing to a publicly available JSON file with the related Xcert metadata.
+
+An Xcert has all the properties of a non-fungible token. This includes the process of transferring a token to other wallets. An Xcert is owned by a user and is present in his/her digital wallet on the blockchain. 
+
+## Reference
+
+* [Non-fungible token standard](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md)
+* [Cryptographic hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function)
+* [Cryptocurrency wallet](https://en.wikipedia.org/wiki/Cryptocurrency_wallet)
+* [Metadata](https://en.wikipedia.org/wiki/Metadata)
+
+## Copyright
+
+Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
