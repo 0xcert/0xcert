@@ -19,7 +19,7 @@ An Xcert represents a one-of-a-kind asset. It is owned by a user in his/her cryp
 
 ## Motivation
 
-Digital assets on the blockchain as non-fungible tokens represent a new paradigm which enables application developers to build advanced and secure applications for managing real-world digital assets. Users hold asset ownership rights in their cryptographic wallets. They are able to exchange tokens between wallets and have a control over the tokens they own.
+Digital assets on the blockchain as non-fungible tokens represent a new paradigm which enables application developers to build advanced and secure applications for managing real-world digital assets. Users hold asset ownership rights in their cryptographic wallets. They are able to exchange tokens between wallets and have control over the tokens they own.
 
 ## Specification
 
