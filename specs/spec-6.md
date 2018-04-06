@@ -29,6 +29,8 @@ Every digital asset in the 0xcert protocol has its own JSON Schema definition. T
 
 The naming of JSON properties must follow the [schema.org](http://schema.org/) specification when possible. This is to enable an easy way to convert a digital asset data object into [JSON-LD](https://json-ld.org/) format. The convention expects the JSON keys to be defined in alphabetical order.
 
+Schemas are versioned according to the [Semantic Versioning](https://semver.org/) specification. If new fields are added to the schema and it stays backward compatible then the schema version should not change.
+
 ## Example
 
 Digital asset data object:
@@ -68,6 +70,7 @@ Digital asset JSON Schema definition:
 * [Digital asset](https://en.wikipedia.org/wiki/Digital_asset)
 * [JSON Schema](http://json-schema.org/)
 * [JSON-LD](https://json-ld.org/)
+* [Semantic versioning](https://semver.org/)
 
 ## Copyright
 
