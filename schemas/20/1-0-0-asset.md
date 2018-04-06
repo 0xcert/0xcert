@@ -1,0 +1,136 @@
+---
+issue: 20
+title: Person
+author: Kristijan Sedlak <kristijan@0xcert.org>
+version: 1.0.0
+category: schema
+status: Draft
+created: 2018-03-16
+---
+
+## Simple Summary
+
+A convention describing an identity document of a person.
+
+## Abstract
+
+The following convention is a JSON Schema definition describing an identity document of a person as a digital asset.
+
+## Motivation
+
+An identity document is a document which may be used to prove an identity of a person.
+
+## Specification
+
+```json
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "An identity of a person.",
+  "id": "https://specs.0xcert.org/schemas/20/1-0-0-asset.json",
+  "properties": {
+    "photo": {
+      "description": "An URI to this person image.",
+      "type": "string"
+    },
+    "additionalName": {
+      "description": "A name placed after the given name and before the family name.",
+      "type": "string"
+    },
+    "addressCountry": {
+      "description": "A country code provided in ISO 3166-1 format (e.g. US).",
+      "type": "string"
+    },
+    "addressLocality": {
+      "description": "A locality or a district name.",
+      "type": "string"
+    },
+    "addressRegion": {
+      "description": "A region code (e.g. CA).",
+      "type": "string"
+    },
+    "birthDate": {
+      "description": "A date on which a person was born.",
+      "format": "date",
+      "type": "string"
+    },
+    "birthPlace": {
+      "description": "A city in which a person was born.",
+      "type": "string"
+    },
+    "dateIssued": {
+      "description": "The date when the identity document was issued.",
+      "format": "date",
+      "type": "string"
+    },
+    "documentID": {
+      "description": "The identification code of a document.",
+      "type": "string"
+    },
+    "expires": {
+      "description": "The date when the identity document expires.",
+      "format": "date",
+      "type": "string"
+    },
+    "familyName": {
+      "description": "The last name of a person.",
+      "type": "string"
+    },
+    "gender": {
+      "description": "The gender of a person.",
+      "enum": ["F", "M"],
+      "type": "string"
+    },
+    "givenName": {
+      "description": "The first name of a person.",
+      "type": "string"
+    },
+    "identificationNumber": {
+      "description": "A unique user national identification number.",
+      "type": "string"
+    },
+    "nationality": {
+      "description": "The nationality code provided in ISO 3166-1 format (e.g. US).",
+      "type": "string"
+    },
+    "postalCode": {
+      "description": "The postal code.",
+      "type": "string"
+    }
+  },
+  "title": "Person",
+  "type": "object"
+}
+```
+
+## Example
+
+```json
+{ 
+  "photo": "https://avatars.org/johnsmith.jpg",
+  "additionalName": "Smart",
+  "addressCountry": "US",
+  "addressLocality": "Mountain View",
+  "addressRegion": "CA",
+  "birthDate": "1981-19-05",
+  "birthPlace": "San Francisco",
+  "dateIssued": "2002-01-01",
+  "documentID": "2178012",
+  "expires": "2022-01-01",
+  "familyName": "Smith",
+  "gender": "M",
+  "givenName": "John",
+  "identificationNumber": "1905981500999",
+  "nationality": "US",
+  "postalCode": "94043"
+}
+```
+
+## References
+
+* [Identity document](https://en.wikipedia.org/wiki/Identity_document)
+* [Schema.org](http://schema.org/)
+* [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1)
+
+## Copyright
+
+Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
