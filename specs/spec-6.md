@@ -1,0 +1,74 @@
+---
+issue: 3
+title: Xcert schema
+author: Kristijan Sedlak <kristijan@0xcert.org>
+category: spec
+status: Draft
+created: 2018-02-20
+---
+
+## Simple Summary
+
+A digital asset is described by its own 0xcert convention.
+
+## Abstract
+
+A digital asset in the 0xcert protocol is defined in form of a specifically designed JSON object. Every data object has its own convention which follows the [JSON Schema](http://json-schema.org) specification.
+
+## Motivation
+
+To simplify the process of describing digital asset as data objects and to enable interoperability between different applications 0xcert provides a convention for each digital asset.
+
+Anyone can propose a new convention by opening a new [issue](/issues). The proposal is accepted and merged into master branch as soon as the interested community approves it based on the majority consensus.
+
+## Specification
+
+A digital asset in the 0xcert protocol is defined and described in form of a specifically designed JSON object, which conforms to [RFC-7159](https://en.wikipedia.org/wiki/JSON) and follows the mapping format defined by the [JSON schema](http://json-schema.org) specification.
+
+Every digital asset in the 0xcert protocol has its own JSON Schema definition. The schema represents a technical specification of a particular digital asset, which explains the JSON data object structure and a detailed description of each data key.
+
+The naming of JSON properties must follow the [schema.org](http://schema.org/) specification when possible. This is to enable an easy way to convert a digital asset data object into [JSON-LD](https://json-ld.org/) format. The convention expects the JSON keys to be defined in alphabetical order.
+
+## Example
+
+Digital asset data object:
+
+```json
+{
+  "familyName": "Smith",
+  "givenName": "John"
+}
+```
+
+Digital asset JSON Schema definition:
+
+```
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Imaginary digital asset.",
+  "id": "https://0xcert.org/schemas/imaginary-asset.json",
+  "properties": {
+    "familyName": {
+      "description": "Family name. In the U.S., the last name of a Person.",
+      "type": "string"
+    },
+    "givenName": {
+      "description": "Given name. In the U.S., the first name of a Person.",
+      "type": "string"
+    }
+  },
+  "title": "ImaginaryAsset",
+  "type": "object"
+}
+```
+
+## References
+
+* [RFC-7159](https://en.wikipedia.org/wiki/JSON)
+* [Digital asset](https://en.wikipedia.org/wiki/Digital_asset)
+* [JSON Schema](http://json-schema.org/)
+* [JSON-LD](https://json-ld.org/)
+
+## Copyright
+
+Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
