@@ -9,14 +9,6 @@ This repository is the main entry point to the 0xcert open-source community. It 
 
 Dedicated documentation pages:
 
-* [About](/)
-  * [How blockchain works?](/)
-  * [Fungible and non-fungible tokens](/)
-  * [Interoperability](/)
-  * [What is 0xcert protocol?](/)
-  * [Use cases](/)
-  * [Not a developer?](/)
-  * [Common questions](/)
 * [Usage basics](/)
   * [Getting started](/)
   * [Platform overview](/)
@@ -38,24 +30,18 @@ Dedicated documentation pages:
 
 ## Projects
 
-Every 0xcert project has a dedicated repository which also includes its own API documentation and resources. Below is a full list of the official 0xcert repositories. You can find a list of other community driven packages [here](/).
+Every 0xcert project has a dedicated repository which also includes its own API documentation and resources. Below is a list of the official 0xcert repositories.
 
-#### Packages
-
-| Project | Version | Description
-|-|-|-
-| [0xcert/ethereum](/) | [![npm](https://img.shields.io/npm/v/@0xcert/ethereum.svg)](https://www.npmjs.com/package/0xcert/ethereum) | 0xcert protocol implementation on Ethereum blockchain.
-
-#### Dapps
-
-| Project | Version | Description
-|-|-|-
-| [0xcert/explorer-api](/) | [![npm](https://img.shields.io/npm/v/@0xcert/ethereum.svg)](https://www.npmjs.com/package/0xcert/ethereum) | 0xcert explorer application API server.
-| [0xcert/explorer-ui](/) | [![npm](https://img.shields.io/npm/v/@0xcert/ethereum.svg)](https://www.npmjs.com/package/0xcert/ethereum) | 0xcert explorer application UI.
-
-## Contributing
-
-// todo
+| Project | Description
+|-|-
+| [ethereum](https://github.com/0xcert/ethereum) | 0xcert protocol implementation for Ethereum blockchain.
+| [whitepaper](https://github.com/0xcert/whitepaper) | 0xcert protocol technical document.
+| [ethereum-tx-parser](https://github.com/0xcert/ethereum-tx-parser) | 0xcert protocol Ethereum blockchain transactions parser.
+| [ethereum-tx-scaner](https://github.com/0xcert/ethereum-tx-scaner) | 0xcert protocol Ethereum blockchain transactions scanner.
+| [ethereum-xcert-parser](https://github.com/0xcert/ethereum-xcert-parser) | 0xcert protocol Xcert smart contract parser for Ethereum blockchain.
+| [explorer-api](https://github.com/0xcert/explorer-api) | 0xcert explorer application API server.
+| [explorer-ui](https://github.com/0xcert/explorer-ui) | 0xcert explorer application UI.
+| [ethereum-xcert-builder](https://github.com/0xcert/ethereum-xcert-builder) | 0xcert Xcert smart contract builder for Ethereum blockchain.
 
 ## License (MIT)
 
