@@ -36,6 +36,7 @@ Every 0xcert project has a dedicated repository which also includes its own API 
 |-|-
 | [ethereum](https://github.com/0xcert/ethereum) | 0xcert protocol implementation for Ethereum blockchain.
 | [ethereum-scanner](https://github.com/0xcert/ethereum-scanner) | 0xcert Ethereum blockchain parser. 
+| [ethereum-xcert](https://github.com/0xcert/ethereum-xcert) | Xcert smart contract builder for Ethereum blockchain.
 | [whitepaper](https://github.com/0xcert/whitepaper) | 0xcert protocol technical document.
 | [explorer-api](https://github.com/0xcert/explorer-api) | 0xcert explorer application API server.
 | [explorer-ui](https://github.com/0xcert/explorer-ui) | 0xcert explorer application UI.
